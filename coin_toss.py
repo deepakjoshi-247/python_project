@@ -2,7 +2,7 @@ coin_game_v2/main.py
 # idk how but it worked 
 # highscore checker with coin toss
 import random
-with open("D:/testing/coin_score.txt","r+") as coin:
+with open("coin_score.txt", "r+")
     # coin.seek(0)
     # coin.write("Highscore- "+ str(highscore))  no need as highscore is already set
     score = 0

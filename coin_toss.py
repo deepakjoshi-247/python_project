@@ -1,9 +1,9 @@
-coin_game_v2/main.py
+#file name - coin_game_v2/main.py     #some plcae might be needed
 # idk how but it worked 
 # highscore checker with coin toss
 import random
 import os
-if not os.path.exists("coin_score.txt"):
+if not os.path.exists("coin_score.txt"):   # if file not present then makes one
     with open("coin_score.txt", "w") as f:
         f.write("Highscore- 0")
 with open("coin_score.txt", "r+") as coin:
